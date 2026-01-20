@@ -85,8 +85,8 @@ importers:
         specifier: ^8.0.1
         version: 8.0.1(@ember/test-helpers@3.2.0(ember-source@4.8.2(@babel/core@7.22.20)(@glimmer/component@1.1.2(@babel/core@7.22.20))(webpack@5.64.4))(webpack@5.64.4))(ember-source@4.8.2(@babel/core@7.22.20)(@glimmer/component@1.1.2(@babel/core@7.22.20))(webpack@5.64.4))(qunit@2.14.0)
       ember-resolver:
-        specifier: ^10.0.0
-        version: 10.0.0(@ember/string@3.0.1)(ember-source@4.8.2(@babel/core@7.22.20)(@glimmer/component@1.1.2(@babel/core@7.22.20))(webpack@5.64.4))
+        specifier: ^13.1.0
+        version: 13.1.0(ember-source@4.8.2(@babel/core@7.22.20)(@glimmer/component@1.1.2(@babel/core@7.22.20))(webpack@5.64.4))
       ember-source:
         specifier: ~4.8.2
         version: 4.8.2(@babel/core@7.22.20)(@glimmer/component@1.1.2(@babel/core@7.22.20))(webpack@5.64.4)
@@ -2824,12 +2824,11 @@ packages:
       ember-source: '>=4.0.0'
       qunit: ^2.13.0
 
-  ember-resolver@10.0.0:
-    resolution: {integrity: sha512-e99wFJ4ZpleJ6JMEcIk4WEYP4s3nc+9/iNSXtwBHXC8ADJHJTeN3HjnT/eEbFbswdui4FYxIYuK+UCdP09811Q==}
+  ember-resolver@13.1.0:
+    resolution: {integrity: sha512-t/PjXLCl5tM9EQXGIFoBgHiA41HkLJpfo17Nud5Cy9eyUPGcnsMjWJqQ+O5QHA0E63Sp+zTn4y/RS5Tu2v2ydg==}
     engines: {node: 14.* || 16.* || >= 18}
     peerDependencies:
-      '@ember/string': ^3.0.1
-      ember-source: ^4.8.3
+      ember-source: ^4.12.0 || >= 5.0.0
     peerDependenciesMeta:
       ember-source:
         optional: true
@@ -9643,9 +9642,8 @@ snapshots:
       - '@glint/template'
       - supports-color
 
-  ember-resolver@10.0.0(@ember/string@3.0.1)(ember-source@4.8.2(@babel/core@7.22.20)(@glimmer/component@1.1.2(@babel/core@7.22.20))(webpack@5.64.4)):
+  ember-resolver@13.1.0(ember-source@4.8.2(@babel/core@7.22.20)(@glimmer/component@1.1.2(@babel/core@7.22.20))(webpack@5.64.4)):
     dependencies:
-      '@ember/string': 3.0.1
       ember-cli-babel: 7.26.11
     optionalDependencies:
       ember-source: 4.8.2(@babel/core@7.22.20)(@glimmer/component@1.1.2(@babel/core@7.22.20))(webpack@5.64.4)
